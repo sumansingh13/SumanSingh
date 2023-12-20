@@ -160,8 +160,8 @@ export const projects = [
       "https://private-user-images.githubusercontent.com/135987312/291861113-cc27fa30-822c-41c1-bf59-89cb26f34c1b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNjgwOTYsIm5iZiI6MTcwMzA2Nzc5NiwicGF0aCI6Ii8xMzU5ODczMTIvMjkxODYxMTEzLWNjMjdmYTMwLTgyMmMtNDFjMS1iZjU5LTg5Y2IyNmYzNGMxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMDIzMTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNTkyNjZhZmI1OWZkNDg3NWNhNzhiYWM0MzMwMTA1NzdkMjk1MzNjYTRlOTQzMzQzOTA3NGU5OTQ4MzVmNjQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.A20N3JM2Ka-T216WEiPS5JmiM1gVLwe5k_7cz2F8bBk",
     tags: ["ReactJs", "TailwindCSS", "Daisy UI", "CSS", "Redux"],
     category: "e-commerce",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/sushanttsharma0011/BigMart.git",
+    webapp: "https://bigmartishere.vercel.app/",
   },
   {
     id: 0,
