@@ -152,25 +152,13 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
+    title: "BigMart",
     date: "Jun 2023 - Jul 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "BigMart is a web application designed to perform e-commerce functionality. so this basically my firts E-commerce project. It provides a user-friendly interface for the customers. Here i have used Redux for the addtocart functionality and an image carausel is also added for the beautification of page",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
+      "https://private-user-images.githubusercontent.com/135987312/291861113-cc27fa30-822c-41c1-bf59-89cb26f34c1b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNjgwOTYsIm5iZiI6MTcwMzA2Nzc5NiwicGF0aCI6Ii8xMzU5ODczMTIvMjkxODYxMTEzLWNjMjdmYTMwLTgyMmMtNDFjMS1iZjU5LTg5Y2IyNmYzNGMxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMDIzMTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNTkyNjZhZmI1OWZkNDg3NWNhNzhiYWM0MzMwMTA1NzdkMjk1MzNjYTRlOTQzMzQzOTA3NGU5OTQ4MzVmNjQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.A20N3JM2Ka-T216WEiPS5JmiM1gVLwe5k_7cz2F8bBk",
+    tags: ["ReactJs", "TailwindCSS", "Daisy UI", "CSS", "Redux"],
     category: "e-commerce",
     github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://trackify.duckdns.org",
