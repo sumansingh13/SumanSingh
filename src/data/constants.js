@@ -158,20 +158,20 @@ export const projects = [
       "BigMart is a web application designed to perform e-commerce functionality. so this basically my firts E-commerce project. It provides a user-friendly interface for the customers. Here i have used Redux for the addtocart functionality and an image carausel is also added for the beautification of page",
     image:
       "https://private-user-images.githubusercontent.com/135987312/291861113-cc27fa30-822c-41c1-bf59-89cb26f34c1b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNjgwOTYsIm5iZiI6MTcwMzA2Nzc5NiwicGF0aCI6Ii8xMzU5ODczMTIvMjkxODYxMTEzLWNjMjdmYTMwLTgyMmMtNDFjMS1iZjU5LTg5Y2IyNmYzNGMxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMDIzMTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNTkyNjZhZmI1OWZkNDg3NWNhNzhiYWM0MzMwMTA1NzdkMjk1MzNjYTRlOTQzMzQzOTA3NGU5OTQ4MzVmNjQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.A20N3JM2Ka-T216WEiPS5JmiM1gVLwe5k_7cz2F8bBk",
-    tags: ["ReactJs", "TailwindCSS", "Daisy UI", "CSS", "Redux"],
+    tags: ["ReactJs", "TailwindCSS", "CSS", "Redux"],
     category: "e commerce",
     github: "https://github.com/sushanttsharma0011/BigMart.git",
     webapp: "https://bigmartishere.vercel.app/",
   },
   {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "Sample Portfolio",
+    date: "sep 2023 - oct2023",
     description:
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://private-user-images.githubusercontent.com/135987312/291868910-3c5c0e84-c4e5-4928-bf0f-73b60bc123ea.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNjk5NzYsIm5iZiI6MTcwMzA2OTY3NiwicGF0aCI6Ii8xMzU5ODczMTIvMjkxODY4OTEwLTNjNWMwZTg0LWM0ZTUtNDkyOC1iZjBmLTczYjYwYmMxMjNlYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMDU0MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMmE3YTIzNmQ0ZWYzZjMwOTQyOTQ3YzA4ZDc4OTFjNTI5YWViZWZiMTQ4OTA0MzdjNTNlMmZkMmIxMTIzMjcwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.MoG-7Nf6fGlBU13WynXINeucX5j0VQ_udqRv7wYmgYk",
+    tags: ["React Js", "Framer Motion", "TailWind CSS", "Daisy UI"],
     category: "web app",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
