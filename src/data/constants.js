@@ -1,6 +1,6 @@
 export const Bio = {
   name: "Sushant Sharma",
-  roles: ["ReactJS Developer", "UI/UX Designer", "Programmer", "Code Wizzard"],
+  roles: ["ReactJS Developer", "Good Learner", "Programmer", "Code Wizzard"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/sushantsharmaofficial",
