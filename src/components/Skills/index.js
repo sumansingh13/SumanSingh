@@ -13,7 +13,7 @@ const Container = styled.div`
   margin-bottom: 10px;
   @media (max-width: 960px) {
     height: 120vh;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 `;
 
