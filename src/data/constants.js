@@ -3,7 +3,7 @@ export const Bio = {
   roles: ["ReactJS Developer", "UI/UX Designer", "Programmer", "Code Wizzard"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/sushanttsharma0011",
+  github: "https://github.com/sushantsharmaofficial",
   resume:
     "https://drive.google.com/file/d/1ZIMK6bYVAqDMDEpQPIuUnWB06fCeJ5pD/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sushant-sharma-152244230/",
@@ -118,7 +118,7 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://scontent.fktm18-1.fna.fbcdn.net/v/t39.30808-6/334979697_613578617334993_8946068882068712529_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=17pEbW3wg5sAX-sU2_F&_nc_ht=scontent.fktm18-1.fna&oh=00_AfBnEJqetWV0hv_sw-1XaMOAvcPrfSexvv56sb0aZIZ93Q&oe=65840DE4",
+    img: "https://i.pinimg.com/736x/79/82/15/79821527ffac1ba7a4ff96806b231756.jpg",
     school: "Milton International college, New-Baneshwar",
     date: "2078 - Present",
     grade: " N/A",
@@ -127,7 +127,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fktm18-1.fna.fbcdn.net/v/t39.30808-6/337281038_3554415868119851_6674714673764245831_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=FuL5K8MwirgAX-pMBRe&_nc_ht=scontent.fktm18-1.fna&oh=00_AfAS2gQysAT0QFuFEX_FXbVQpCsDHZBoTxNc2t4VxDV6-g&oe=65835129",
+    img: "https://i.pinimg.com/736x/d7/19/e8/d719e85caeefc9d641fc0b4e19b95b29.jpg",
     school: "Liverpool International College,New-Baneshwar",
     date: "2075 - 2078",
     grade: "3.08 GPA",
@@ -147,13 +147,41 @@ export const education = [
 
 export const projects = [
   {
+    id: 1,
+    title: "Solus",
+    date: "Dec 2023 - Jan 2024",
+    description:
+      "Introducing Solus, my latest e-commerce venture! 🚀 Tailored for men's fashion enthusiasts, Solus offers seamless shopping and a user-friendly admin panel. Explore stylish products, manage effortlessly, and gain real-time insights. 💳 Seamless transactions via Razorpay for a secure payment experience. 💻✨ Precision-crafted with Tailwind CSS and React Slick for a dynamic, responsive U",
+    image:
+      "https://i.pinimg.com/736x/3e/73/16/3e73164e31f75a4a00a29b231cb8d185.jpg",
+    tags: ["React Js", "Tailwind CSS", "Redux", "Firebase"],
+    category: "e commerce",
+    github: "https://github.com/sushantsharmaofficial/Solus",
+    webapp:
+      "https://www.linkedin.com/posts/sushant-sharma-152244230_solusfashion-ecommerceinnovation-techandfashion-activity-7148879501010153472-QN_O?utm_source=share&utm_medium=member_desktop",
+  },
+
+  {
+    id: 2,
+    title: "Room Chat",
+    date: "Nov 2023 - Dec 2023",
+    description:
+      "Just launched a dynamic Room Chat application with ReactJS, Firebase backend, and Google authentication! Seamlessly enter chat rooms with shared keys, ensuring a secure and collaborative environment. Leveraging the power of React hooks, Firebase, and Tailwind CSS, this project highlights my commitment to creating efficient and user-friendly applications. Excited to share and connect on the journey of innovative development!",
+    image:
+      "https://i.pinimg.com/736x/b3/3a/a0/b33aa0635626d34a0e1c7673003ed537.jpg",
+    tags: ["React Js", "Tailwind CSS", "Firebase"],
+    category: "chat app",
+    github: "https://github.com/sushantsharmaofficial/Room-Chat",
+    webapp: "https://room-chat-nine.vercel.app/",
+  },
+  {
     id: 9,
     title: "BigMart",
     date: "Jun 2023 - Jul 2023",
     description:
       "BigMart is a web application designed to perform e-commerce functionality. so this basically my firts E-commerce project. It provides a user-friendly interface for the customers. Here i have used Redux for the addtocart functionality and an image carausel is also added for the beautification of page",
     image:
-      "https://private-user-images.githubusercontent.com/135987312/291861113-cc27fa30-822c-41c1-bf59-89cb26f34c1b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNjgwOTYsIm5iZiI6MTcwMzA2Nzc5NiwicGF0aCI6Ii8xMzU5ODczMTIvMjkxODYxMTEzLWNjMjdmYTMwLTgyMmMtNDFjMS1iZjU5LTg5Y2IyNmYzNGMxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMDIzMTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNTkyNjZhZmI1OWZkNDg3NWNhNzhiYWM0MzMwMTA1NzdkMjk1MzNjYTRlOTQzMzQzOTA3NGU5OTQ4MzVmNjQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.A20N3JM2Ka-T216WEiPS5JmiM1gVLwe5k_7cz2F8bBk",
+      "https://i.pinimg.com/736x/00/12/1b/00121b502018e3d252eb0516ad640901.jpg",
     tags: ["ReactJs", "TailwindCSS", "CSS", "Redux"],
     category: "e commerce",
     github: "https://github.com/sushanttsharma0011/BigMart.git",
@@ -161,36 +189,43 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Sample Portfolio",
+    title: "Portfolio",
     date: "sep 2023 - oct2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Excited to present my latest portfolio, meticulously crafted with ReactJS, Framer Motion, and DaisyUI!  This dynamic showcase not only reflects my technical proficiency in React but also demonstrates a flair for motion design through Framer Motion. DaisyUI adds a touch of elegance, enhancing the user interface with seamless components. Explore my projects, skills, and journey in tech with an immersive and visually stunning experience. Ready to embark on a journey of innovation and creativity. Explore, connect, and let the possibilities unfold!",
     image:
-      "https://private-user-images.githubusercontent.com/135987312/291868910-3c5c0e84-c4e5-4928-bf0f-73b60bc123ea.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNjk5NzYsIm5iZiI6MTcwMzA2OTY3NiwicGF0aCI6Ii8xMzU5ODczMTIvMjkxODY4OTEwLTNjNWMwZTg0LWM0ZTUtNDkyOC1iZjBmLTczYjYwYmMxMjNlYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMDU0MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMmE3YTIzNmQ0ZWYzZjMwOTQyOTQ3YzA4ZDc4OTFjNTI5YWViZWZiMTQ4OTA0MzdjNTNlMmZkMmIxMTIzMjcwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.MoG-7Nf6fGlBU13WynXINeucX5j0VQ_udqRv7wYmgYk",
+      "https://i.pinimg.com/736x/37/7d/da/377ddaca35d79781593bdaa87ae7feca.jpg",
     tags: ["React Js", "Framer Motion", "TailWind CSS", "Daisy UI"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    category: "portfolio",
+    github: "https://github.com/sushantsharmaofficial/framer-motion-portfolio",
+    webapp: "https://framer-motion-portfolio-eight.vercel.app/",
   },
+
   {
     id: 1,
-    title: "Expense Manager",
+    title: "Capital Tracker",
     date: "Oct 2023 - Oct 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Introducing the Capital Tracker Dashboard a cutting-edge web application meticulously crafted with ReactJS, Tailwind CSS, and Framer Motion! Seamlessly blending powerful functionality with a sleek and intuitive design, this dashboard provides a comprehensive overview of financial insights. Tailwind CSS ensures a responsive and visually appealing layout, while Framer Motion adds a touch of elegance through smooth animations. Elevate your financial management experience with real-time tracking, insightful data visualization, and user-friendly navigation. Empower your decisions, stay informed, and embrace the future of financial control. Explore the Capital Tracker Dashboard  where precision meets innovation. ",
     image:
-      " https://private-user-images.githubusercontent.com/135987312/291871046-8120f3d7-8140-4b8a-b613-dbc3f210b865.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMwNzA0NzEsIm5iZiI6MTcwMzA3MDE3MSwicGF0aCI6Ii8xMzU5ODczMTIvMjkxODcxMDQ2LTgxMjBmM2Q3LTgxNDAtNGI4YS1iNjEzLWRiYzNmMjEwYjg2NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIyMFQxMTAyNTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNDYyNDM1MDYzOTNmMjQyN2E2NGIzNjJjMjY4MWY5NjBmNWJmYjA5ZGE5NWYwN2I2MzY2ZGIyMjEzNTI1ODk0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.uF0wrfewLSPdZWk2Vrk3wE9aVYoJKIRfpZL_ckx6EQE",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "portfolio",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+      "https://i.pinimg.com/736x/13/11/cc/1311cc0bf2b351f38ba953afdf8829bd.jpg",
+    tags: ["React Js", "daisyUI", "Tailwind CSS", "Framer motion"],
+    category: "dashboard",
+    github: "https://github.com/sushantsharmaofficial/Cash_dashboard",
+    webapp: "https://cash-dashboard.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Todo app",
+    date: "oct 2023 - oct 2023",
+    description:
+      "Elevate your productivity with my latest creation  a robust ToDo App built with ReactJS! Seamlessly add, update, and delete tasks with an intuitive user interface. Experience the power of React as you organize your day effortlessly. Embrace efficiency, prioritize tasks, and stay on top of your goals. Simplify your workflow with this feature-rich ToDo App. Let's conquer tasks together! ",
+    image:
+      "https://i.pinimg.com/736x/e0/6e/cf/e06ecfd72b4a28c40504730ff2f9011d.jpg",
+    tags: ["React Js", "Tailwind CSS"],
+    category: "none",
+    github: "https://github.com/sushantsharmaofficial/TODO-app-react",
+    webapp: "https://todo-app-react-pearl-theta.vercel.app/",
   },
 ];
 
