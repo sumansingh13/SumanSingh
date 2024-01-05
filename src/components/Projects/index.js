@@ -84,6 +84,23 @@ const Projects = ({ openModal, setOpenModal }) => {
               DASHBOARD
             </ToggleButton>
           )}
+          <Divider />
+          {toggle === "chat app" ? (
+            <ToggleButton
+              active
+              value="dashboard"
+              onClick={() => setToggle("chat app")}
+            >
+              CHAT APP
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value="chat app"
+              onClick={() => setToggle("chat app")}
+            >
+              CHAT APP
+            </ToggleButton>
+          )}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
