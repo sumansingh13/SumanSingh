@@ -10,7 +10,7 @@ const Container = styled.div`
   z-index: 1;
   align-items: center;
   height: 80vh;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   @media (max-width: 960px) {
     height: 120vh;
     margin-bottom: 30px;
@@ -133,7 +133,7 @@ const Skills = () => {
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
-            <Skill>
+            <Skill key={skill}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item) => (
