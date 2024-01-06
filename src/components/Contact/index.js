@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
+import { toast } from "react-toastify";
 
 const Container = styled.div`
   display: flex;
@@ -134,27 +134,67 @@ const ContactButton = styled.input`
 const Contact = () => {
   //hooks
   const [open, setOpen] = React.useState(false);
-  const form = useRef();
+  const [email, setEmail] = React.useState("");
+  const [name, setName] = React.useState("");
+  const [subject, setSubject] = React.useState("");
+  const [message, setMessage] = React.useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    /* your email service id  */
+
+    const serviceID = "service_4q6d3ea";
+    const templateId = "template_ftplp2a";
+    const publicKey = "bSwyN0LnSafXBEhAc";
+
+    /* create a new object that contains dynamic template params */
+
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      from_subject: subject,
+      from_message: message,
+      to_name: "Sushant Sharma",
+    };
+
+    // send email usind emailJS
+
     emailjs
-      .sendForm(
-        "service_4q6d3ea",
-        "template_lqfxri9",
-        form.current,
-        "bSwyN0LnSafXBEhAc"
-      )
-      .then(
-        (result) => {
-          setOpen(true);
-          form.current.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+      .send(serviceID, templateId, templateParams, publicKey)
+      .then((res) => {
+        toast.success("Email Sent Successfully");
+        setEmail("");
+        setName("");
+        setSubject("");
+        setMessage("");
+      })
+      .catch((error) => {
+        toast.error("cannot sent the email");
+      });
   };
+
+  // const form = useRef();
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   emailjs
+  //     .sendForm(
+  //       "service_4q6d3ea",
+  //       "template_lqfxri9",
+  //       form.current,
+  //       "bSwyN0LnSafXBEhAc"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         setOpen(true);
+  //         form.current.reset();
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <Container>
@@ -163,12 +203,33 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput
+            placeholder="Your Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            name="from_email"
+          />
+          <ContactInput
+            placeholder="Your Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            name="from_name"
+          />
+          <ContactInput
+            placeholder="Subject"
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            name="subject"
+          />
+          <ContactInputMessage
+            placeholder="Message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            rows="4"
+            name="message"
+          />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
