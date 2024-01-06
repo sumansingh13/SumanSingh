@@ -174,28 +174,6 @@ const Contact = () => {
       });
   };
 
-  // const form = useRef();
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   emailjs
-  //     .sendForm(
-  //       "service_4q6d3ea",
-  //       "template_lqfxri9",
-  //       form.current,
-  //       "bSwyN0LnSafXBEhAc"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         setOpen(true);
-  //         form.current.reset();
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
-
   return (
     <Container>
       <Wrapper>
