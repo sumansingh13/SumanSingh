@@ -162,8 +162,7 @@ export const projects = [
     tags: ["React Js", "Tailwind CSS", "Redux", "Firebase"],
     category: "e commerce",
     github: "https://github.com/sushantsharmaofficial/Solus",
-    webapp:
-      "https://www.linkedin.com/posts/sushant-sharma-152244230_solusfashion-ecommerceinnovation-techandfashion-activity-7148879501010153472-QN_O?utm_source=share&utm_medium=member_desktop",
+    webapp: "https://solus-sushant-sharmas-projects.vercel.app/",
   },
 
   {
