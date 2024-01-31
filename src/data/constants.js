@@ -152,7 +152,20 @@ export const education = [
 
 export const projects = [
   {
-    id: 1,
+    id: 5,
+    title: "Photoland",
+    date: "Jan 2023 - feb 2024",
+    description:
+      "Exciting news! Introducing "Photoland" – a dynamic e-commerce platform with a user-friendly interface powered by React.js and Strapi. Explore captivating sliders, seamless cart management, and efficient search functionality. Responsive design is done with the help of tailwind.",
+    image:
+      "https://i.pinimg.com/736x/3e/73/16/3e73164e31f75a4a00a29b231cb8d185.jpg",
+    tags: ["React Js", "Tailwind CSS", "Redux", "Firebase"],
+    category: "e commerce",
+    github: "https://github.com/sushantsharmaofficial/Solus",
+    webapp: "https://solus-sushant-sharmas-projects.vercel.app/",
+  },
+  {
+    id: 6,
     title: "Solus",
     date: "Dec 2023 - Jan 2024",
     description:
