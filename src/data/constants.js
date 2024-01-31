@@ -156,13 +156,15 @@ export const projects = [
     title: "Photoland",
     date: "Jan 2023 - feb 2024",
     description:
-      "Exciting news! Introducing "Photoland" – a dynamic e-commerce platform with a user-friendly interface powered by React.js and Strapi. Explore captivating sliders, seamless cart management, and efficient search functionality. Responsive design is done with the help of tailwind.",
+      "  Photoland – a dynamic e-commerce platform with a user-friendly interface powered by React.js and Strapi. Explore captivating sliders, seamless cart management, and efficient search functionality. Responsive design is done with the help of tailwind.",
     image:
-      "https://i.pinimg.com/736x/3e/73/16/3e73164e31f75a4a00a29b231cb8d185.jpg",
-    tags: ["React Js", "Tailwind CSS", "Redux", "Firebase"],
+      " https://i.pinimg.com/736x/76/a5/9c/76a59c0886f7ea947782555435ea1848.jpg",
+    tags: ["React Js", "Stripe", "Tailwind CSS"],
     category: "e commerce",
-    github: "https://github.com/sushantsharmaofficial/Solus",
-    webapp: "https://solus-sushant-sharmas-projects.vercel.app/",
+    github:
+      "https://www.linkedin.com/posts/sushant-sharma-152244230_photoland-ecommercewebsite-reactjs-activity-7158334424248463360-U-tO?utm_source=share&utm_medium=member_desktop",
+    webapp:
+      " https://www.linkedin.com/posts/sushant-sharma-152244230_photoland-ecommercewebsite-reactjs-activity-7158334424248463360-U-tO?utm_source=share&utm_medium=member_desktop",
   },
   {
     id: 6,
