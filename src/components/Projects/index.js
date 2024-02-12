@@ -79,7 +79,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           ) : (
             <ToggleButton value="other" onClick={() => setToggle("other")}>
-              CHAT APP
+              OTHER
             </ToggleButton>
           )}
         </ToggleButtonGroup>
@@ -93,7 +93,7 @@ const Projects = ({ openModal, setOpenModal }) => {
               />
             ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
                 project={project}
