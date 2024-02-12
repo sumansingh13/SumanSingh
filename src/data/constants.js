@@ -203,7 +203,7 @@ export const projects = [
     image:
       "https://i.pinimg.com/736x/b3/3a/a0/b33aa0635626d34a0e1c7673003ed537.jpg",
     tags: ["React Js", "Tailwind CSS", "Firebase"],
-    category: "chat app",
+    category: "other",
     github: "https://github.com/sushantsharmaofficial/Room-Chat",
     webapp: "https://room-chat-nine.vercel.app/",
   },
@@ -243,7 +243,7 @@ export const projects = [
     image:
       "https://i.pinimg.com/736x/13/11/cc/1311cc0bf2b351f38ba953afdf8829bd.jpg",
     tags: ["React Js", "daisyUI", "Tailwind CSS", "Framer motion"],
-    category: "dashboard",
+    category: "other",
     github: "https://github.com/sushantsharmaofficial/Cash_dashboard",
     webapp: "https://cash-dashboard.vercel.app/",
   },
@@ -256,7 +256,7 @@ export const projects = [
     image:
       "https://i.pinimg.com/736x/e0/6e/cf/e06ecfd72b4a28c40504730ff2f9011d.jpg",
     tags: ["React Js", "Tailwind CSS"],
-    category: "none",
+    category: "other",
     github: "https://github.com/sushantsharmaofficial/TODO-app-react",
     webapp: "https://todo-app-react-pearl-theta.vercel.app/",
   },

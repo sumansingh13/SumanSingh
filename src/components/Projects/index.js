@@ -44,7 +44,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="web app"
+              value="e commerce"
               onClick={() => setToggle("e commerce")}
             >
               E-COMMERCE
@@ -68,36 +68,17 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "dashboard" ? (
+
+          {toggle === "other" ? (
             <ToggleButton
               active
-              value="dashboard"
-              onClick={() => setToggle("dashboard")}
-            >
-              DASHBOARD
-            </ToggleButton>
-          ) : (
-            <ToggleButton
-              value="dashboard"
-              onClick={() => setToggle("dashboard")}
-            >
-              DASHBOARD
-            </ToggleButton>
-          )}
-          <Divider />
-          {toggle === "chat app" ? (
-            <ToggleButton
-              active
-              value="dashboard"
-              onClick={() => setToggle("chat app")}
+              value="other"
+              onClick={() => setToggle("other")}
             >
               CHAT APP
             </ToggleButton>
           ) : (
-            <ToggleButton
-              value="chat app"
-              onClick={() => setToggle("chat app")}
-            >
+            <ToggleButton value="other" onClick={() => setToggle("other")}>
               CHAT APP
             </ToggleButton>
           )}
