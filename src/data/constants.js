@@ -152,9 +152,23 @@ export const education = [
 
 export const projects = [
   {
+    id: 6,
+    title: "Suman Singh Portfolio",
+    date: "Jan 2023 - feb 2024",
+    description:
+      "  Excited to share my latest: a Next.js portfolio highlighting my skills across six sections. Seamless navigation, smooth transitions, and mesmerizing particles create an immersive experience. Swiper carousels showcase projects and testimonials, while Tailwind CSS ensures full responsiveness. Explore and connect!",
+    image:
+      "https://i.pinimg.com/736x/06/52/97/0652975218fc745d2d9217cae68ce75c.jpg",
+    tags: ["Next Js", "Swiper", "JsParticles", "Tailwind CSS"],
+    category: "portfolio",
+    github: "https://github.com/sushantsharmaofficial/Suman-singh-portfolio",
+    webapp:
+      "https://www.linkedin.com/posts/sushant-sharma-152244230_developer-nextjs14-reactjs-activity-7162760435329351682-DGKY?utm_source=share&utm_medium=member_desktop",
+  },
+  {
     id: 5,
     title: "Photoland",
-    date: "Jan 2023 - feb 2024",
+    date: "Jan 2024 - Jan 2024",
     description:
       "  Photoland – a dynamic e-commerce platform with a user-friendly interface powered by React.js and Strapi. Explore captivating sliders, seamless cart management, and efficient search functionality. Responsive design is done with the help of tailwind.",
     image:
