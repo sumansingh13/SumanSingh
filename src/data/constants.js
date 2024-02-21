@@ -140,12 +140,11 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://play-lh.googleusercontent.com/E-SmQZwmpZ816Zj4hxR38d9f6n9diQ-DFuH_HYwJu7CrtlKYqz0-cb4y5Ma8Noz-JjY",
-    school: "Nepal Police School, Sanga,Kavre.",
-    date: "2071 - 2074",
-    grade: "3.75 GPA",
+    img: "https://udemy-certificate.s3.amazonaws.com/image/UC-3e26f4f0-a5f1-4578-bc80-1988dffa4b00.jpg?v=1706972701000",
+    school: "The Data Science Course: Complete Data Science Bootcamp 2024",
+    date: "2024",
     desc: "I completed my class 10 education at Nepal Police School, Sanga, Kavre, where I studied Computer Science.",
-    degree: "SEE, 2074",
+    degree: "Udemy, 2024",
   },
 ];
 
