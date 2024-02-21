@@ -87,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Sushant Sharma</Logo>
+        <Logo>Suman Singh</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -108,7 +108,7 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Sushant Sharma. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Suman Singh. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
