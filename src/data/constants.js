@@ -143,7 +143,8 @@ export const education = [
     img: "https://udemy-certificate.s3.amazonaws.com/image/UC-3e26f4f0-a5f1-4578-bc80-1988dffa4b00.jpg?v=1706972701000",
     school: "The Data Science Course: Complete Data Science Bootcamp 2024",
     date: "2024",
-    desc: "I completed my class 10 education at Nepal Police School, Sanga, Kavre, where I studied Computer Science.",
+    desc: 
+    "I have completed an intensive Data Science Bootcamp! Over the course of several months, I've immersed myself in a wide array of topics including statistical analysis, machine learning, and data visualization. Through hands-on projects and comprehensive coursework, I've honed my skills in SQL, Python, Tableau, and R, while also gaining proficiency in machine learning algorithms and statistical modeling. I'm now equipped with the tools and knowledge to tackle real-world data challenges with confidence.",
     degree: "Udemy, 2024",
   },
 ];
