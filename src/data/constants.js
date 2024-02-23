@@ -160,8 +160,8 @@ export const projects = [
     image:
       "https://i.pinimg.com/736x/87/74/e6/8774e63bd401bfad9405a0a8e067bf28.jpg",
     tags: ["Next Js", "Swiper", "JsParticles", "Tailwind CSS"],
-    category: "data cleaning",
-    github: "https://github.com/sushantsharmaofficial/Suman-singh-portfolio",
+    category: "exploration",
+    github: "https://github.com/sumansingh13/SQL-Data-Exploration-of-Covid/blob/main/Covid%20Project%20p1.sql",
     
   },
   {
