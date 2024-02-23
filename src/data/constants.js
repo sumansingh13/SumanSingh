@@ -13,7 +13,7 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/suman-singh-4320331a4/",
   twitter: "https://twitter.com/sumansingh_13",
   insta: "https://www.instagram.com/sumansingh_13?igsh=bzJmaHBnZWViNG9s",
-  facebook: "https://www.facebook.com/profile.php?id=100008415932213",
+  facebook: "https://www.facebook.com/profile.php?id=100094066790934&mibextid=JRoKGi",
 };
 
 export const skills = [

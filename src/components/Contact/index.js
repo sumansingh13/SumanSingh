@@ -155,7 +155,7 @@ const Contact = () => {
       from_email: email,
       from_subject: subject,
       from_message: message,
-      to_name: "Sushant Sharma",
+      to_name: "Suman Singh",
     };
 
     // send email usind emailJS
