@@ -153,7 +153,7 @@ export const education = [
 export const projects = [
   {
     id: 6,
-    title: "Suman Singh Portfolio",
+    title: "Data Explolaration",
     date: "Jan 2023 - feb 2024",
     description:
       "  In this project, I thoroughly analyzed COVID-19 data, revealing significant insights and trends. By optimizing queries and crafting visualizations, I navigated through complex data to extract valuable information. Key findings include exploring fatality rates across countries, tracking infection rates relative to population size, examining global statistics such as total cases and deaths, and integrating vaccination data to analyze total vaccinations. The journey proved both challenging and rewarding, culminating in a deeper understanding of the pandemic's impact",
