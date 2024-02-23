@@ -162,8 +162,7 @@ export const projects = [
     tags: ["Next Js", "Swiper", "JsParticles", "Tailwind CSS"],
     category: "data cleaning",
     github: "https://github.com/sushantsharmaofficial/Suman-singh-portfolio",
-    webapp:
-      "https://www.linkedin.com/posts/sushant-sharma-152244230_developer-nextjs14-reactjs-activity-7162760435329351682-DGKY?utm_source=share&utm_medium=member_desktop",
+    
   },
   {
     id: 5,
@@ -177,8 +176,7 @@ export const projects = [
     category: "visualization",
     github:
       "https://www.linkedin.com/posts/sushant-sharma-152244230_photoland-ecommercewebsite-reactjs-activity-7158334424248463360-U-tO?utm_source=share&utm_medium=member_desktop",
-    webapp:
-      " https://www.linkedin.com/posts/sushant-sharma-152244230_photoland-ecommercewebsite-reactjs-activity-7158334424248463360-U-tO?utm_source=share&utm_medium=member_desktop",
+     
   },
   {
     id: 6,
@@ -191,7 +189,6 @@ export const projects = [
     tags: ["React Js", "Tailwind CSS", "Redux", "Firebase"],
     category: "exploration",
     github: "https://github.com/sushantsharmaofficial/Solus",
-    webapp: "https://solus-sushant-sharmas-projects.vercel.app/",
   },
 
  
