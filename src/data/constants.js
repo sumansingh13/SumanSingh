@@ -154,7 +154,7 @@ export const projects = [
   {
     id: 6,
     title: "Data Explolaration",
-    date: "Jan 2023 - feb 2024",
+    date: "Jan 2024",
     description:
       "  In this project, I thoroughly analyzed COVID-19 data, revealing significant insights and trends. By optimizing queries and crafting visualizations, I navigated through complex data to extract valuable information. Key findings include exploring fatality rates across countries, tracking infection rates relative to population size, examining global statistics such as total cases and deaths, and integrating vaccination data to analyze total vaccinations. The journey proved both challenging and rewarding, culminating in a deeper understanding of the pandemic's impact",
     image:
@@ -166,29 +166,29 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Photoland",
-    date: "Jan 2024 - Jan 2024",
+    title: "Tableau Dashboard of Covid",
+    date: "Jan 2024",
     description:
-      "  Photoland – a dynamic e-commerce platform with a user-friendly interface powered by React.js and Strapi. Explore captivating sliders, seamless cart management, and efficient search functionality. Responsive design is done with the help of tailwind.",
+      "  Introducing a Tableau dashboard highlighting the global impact of COVID-19, showcasing key insights including the percentage of population infected per country, total deaths per continent, overall population infection rates, and global statistics such as total cases, deaths, and death percentages. This interactive tool offers a comprehensive perspective on the pandemic's reach and severity worldwide, enabling deeper insights into its global impact.",
     image:
-      " https://i.pinimg.com/736x/76/a5/9c/76a59c0886f7ea947782555435ea1848.jpg",
-    tags: ["React Js", "Stripe", "Tailwind CSS"],
+      " https://i.pinimg.com/736x/8b/87/10/8b87100b4d1bfb18cc558df710d8de90.jpg",
+    tags: ["Tableau", "Coviddashboard", "Visualization"],
     category: "visualization",
-    github:
-      "https://www.linkedin.com/posts/sushant-sharma-152244230_photoland-ecommercewebsite-reactjs-activity-7158334424248463360-U-tO?utm_source=share&utm_medium=member_desktop",
+    Dashboard:
+      "https://public.tableau.com/app/profile/suman.singh8247/viz/Covid-19Dashboard_17066433017850/Dashboard1#1",
      
   },
   {
     id: 6,
-    title: "Solus",
-    date: "Dec 2023 - Jan 2024",
+    title: "Data Cleaning using SQL",
+    date: "Feb 2024",
     description:
-      "Introducing Solus, my latest e-commerce venture! 🚀 Tailored for men's fashion enthusiasts, Solus offers seamless shopping and a user-friendly admin panel. Explore stylish products, manage effortlessly, and gain real-time insights. 💳 Seamless transactions via Razorpay for a secure payment experience. 💻✨ Precision-crafted with Tailwind CSS and React Slick for a dynamic, responsive U",
+      "This project of data cleaning completed for NashvilleHousing dataset, ensuring accuracy and standardization. Highlights include standardizing sale date format, populating missing property addresses via self-join on ParcelID, breaking down addresses into individual columns for analysis, parsing owner address components, updating 'Sold as Vacant' field for clarity, removing duplicates, and deleting unused columns. Data now primed for analysis!",
     image:
-      "https://i.pinimg.com/736x/3e/73/16/3e73164e31f75a4a00a29b231cb8d185.jpg",
-    tags: ["React Js", "Tailwind CSS", "Redux", "Firebase"],
-    category: "exploration",
-    github: "https://github.com/sushantsharmaofficial/Solus",
+      "https://i.pinimg.com/736x/4e/0b/5b/4e0b5b6f2efa92125ac8d022c5941497.jpg",
+    tags: ["DataCleaning", "NashvilleHousing", "SQL"],
+    category: "data cleaning",
+    github: "https://github.com/sumansingh13/Data-Cleaning-of-Nashvillehousing-using-sql/blob/main/Data%20Cleaning%20of%20Nashvillehousing%20using%20sql.sql",
   },
 
  

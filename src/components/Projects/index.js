@@ -20,8 +20,8 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+        I possess expertise in a wide array of projects, including data exploration, visualization, data cleaning, correlation analysis, and web scraping.
+         Presented below are select highlights from my portfolio.
         </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
