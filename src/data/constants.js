@@ -174,7 +174,7 @@ export const projects = [
       " https://i.pinimg.com/736x/8b/87/10/8b87100b4d1bfb18cc558df710d8de90.jpg",
     tags: ["Tableau", "Coviddashboard", "Visualization"],
     category: "visualization",
-    Dashboard:
+    github:
       "https://public.tableau.com/app/profile/suman.singh8247/viz/Covid-19Dashboard_17066433017850/Dashboard1#1",
      
   },
