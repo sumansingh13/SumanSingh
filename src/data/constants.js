@@ -159,7 +159,7 @@ export const projects = [
       "  In this project, I delved into the intricate details of the COVID-19 data, uncovering insightful trends and patterns. From optimizing queries to visualizing key metrics..",
     image:
       "https://i.pinimg.com/736x/87/74/e6/8774e63bd401bfad9405a0a8e067bf28.jpg",
-    tags: ["SQL Server", "DataExploration", "#Covid19 Analysis"],
+    tags: ["SQL Server", "DataExploration", "Covid19 Analysis"],
     category: "exploration",
     github: "https://github.com/sumansingh13/SQL-Data-Exploration-of-Covid/blob/main/Covid%20Project%20p1.sql",
     
