@@ -156,7 +156,7 @@ export const projects = [
     title: "Suman Singh Portfolio",
     date: "Jan 2023 - feb 2024",
     description:
-      "  In this project, I delved into the intricate details of the COVID-19 data, uncovering insightful trends and patterns. From optimizing queries to visualizing key metrics..",
+      "  In this project, I thoroughly analyzed COVID-19 data, revealing significant insights and trends. By optimizing queries and crafting visualizations, I navigated through complex data to extract valuable information. Key findings include exploring fatality rates across countries, tracking infection rates relative to population size, examining global statistics such as total cases and deaths, and integrating vaccination data to analyze total vaccinations. The journey proved both challenging and rewarding, culminating in a deeper understanding of the pandemic's impact",
     image:
       "https://i.pinimg.com/736x/87/74/e6/8774e63bd401bfad9405a0a8e067bf28.jpg",
     tags: ["SQL Server", "DataExploration", "Covid19 Analysis"],
