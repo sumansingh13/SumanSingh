@@ -158,9 +158,9 @@ export const projects = [
     description:
       "  Excited to share my latest: a Next.js portfolio highlighting my skills across six sections. Seamless navigation, smooth transitions, and mesmerizing particles create an immersive experience. Swiper carousels showcase projects and testimonials, while Tailwind CSS ensures full responsiveness. Explore and connect!",
     image:
-      "https://i.pinimg.com/736x/06/52/97/0652975218fc745d2d9217cae68ce75c.jpg",
+      "https://i.pinimg.com/736x/87/74/e6/8774e63bd401bfad9405a0a8e067bf28.jpg",
     tags: ["Next Js", "Swiper", "JsParticles", "Tailwind CSS"],
-    category: "portfolio",
+    category: "data cleaning",
     github: "https://github.com/sushantsharmaofficial/Suman-singh-portfolio",
     webapp:
       "https://www.linkedin.com/posts/sushant-sharma-152244230_developer-nextjs14-reactjs-activity-7162760435329351682-DGKY?utm_source=share&utm_medium=member_desktop",
@@ -174,7 +174,7 @@ export const projects = [
     image:
       " https://i.pinimg.com/736x/76/a5/9c/76a59c0886f7ea947782555435ea1848.jpg",
     tags: ["React Js", "Stripe", "Tailwind CSS"],
-    category: "e commerce",
+    category: "visualization",
     github:
       "https://www.linkedin.com/posts/sushant-sharma-152244230_photoland-ecommercewebsite-reactjs-activity-7158334424248463360-U-tO?utm_source=share&utm_medium=member_desktop",
     webapp:
@@ -189,77 +189,12 @@ export const projects = [
     image:
       "https://i.pinimg.com/736x/3e/73/16/3e73164e31f75a4a00a29b231cb8d185.jpg",
     tags: ["React Js", "Tailwind CSS", "Redux", "Firebase"],
-    category: "e commerce",
+    category: "exploration",
     github: "https://github.com/sushantsharmaofficial/Solus",
     webapp: "https://solus-sushant-sharmas-projects.vercel.app/",
   },
 
-  {
-    id: 2,
-    title: "Room Chat",
-    date: "Nov 2023 - Dec 2023",
-    description:
-      "Just launched a dynamic Room Chat application with ReactJS, Firebase backend, and Google authentication! Seamlessly enter chat rooms with shared keys, ensuring a secure and collaborative environment. Leveraging the power of React hooks, Firebase, and Tailwind CSS, this project highlights my commitment to creating efficient and user-friendly applications. Excited to share and connect on the journey of innovative development!",
-    image:
-      "https://i.pinimg.com/736x/b3/3a/a0/b33aa0635626d34a0e1c7673003ed537.jpg",
-    tags: ["React Js", "Tailwind CSS", "Firebase"],
-    category: "other",
-    github: "https://github.com/sushantsharmaofficial/Room-Chat",
-    webapp: "https://room-chat-nine.vercel.app/",
-  },
-  {
-    id: 9,
-    title: "BigMart",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "BigMart is a web application designed to perform e-commerce functionality. so this basically my firts E-commerce project. It provides a user-friendly interface for the customers. Here i have used Redux for the addtocart functionality and an image carausel is also added for the beautification of page",
-    image:
-      "https://i.pinimg.com/736x/00/12/1b/00121b502018e3d252eb0516ad640901.jpg",
-    tags: ["ReactJs", "TailwindCSS", "CSS", "Redux"],
-    category: "e commerce",
-    github: "https://github.com/sushanttsharma0011/BigMart.git",
-    webapp: "https://bigmartishere.vercel.app/",
-  },
-  {
-    id: 0,
-    title: "Portfolio",
-    date: "sep 2023 - oct2023",
-    description:
-      "Excited to present my latest portfolio, meticulously crafted with ReactJS, Framer Motion, and DaisyUI!  This dynamic showcase not only reflects my technical proficiency in React but also demonstrates a flair for motion design through Framer Motion. DaisyUI adds a touch of elegance, enhancing the user interface with seamless components. Explore my projects, skills, and journey in tech with an immersive and visually stunning experience. Ready to embark on a journey of innovation and creativity. Explore, connect, and let the possibilities unfold!",
-    image:
-      "https://i.pinimg.com/736x/37/7d/da/377ddaca35d79781593bdaa87ae7feca.jpg",
-    tags: ["React Js", "Framer Motion", "TailWind CSS", "Daisy UI"],
-    category: "portfolio",
-    github: "https://github.com/sushantsharmaofficial/framer-motion-portfolio",
-    webapp: "https://framer-motion-portfolio-eight.vercel.app/",
-  },
-
-  {
-    id: 1,
-    title: "Capital Tracker",
-    date: "Oct 2023 - Oct 2023",
-    description:
-      "Introducing the Capital Tracker Dashboard a cutting-edge web application meticulously crafted with ReactJS, Tailwind CSS, and Framer Motion! Seamlessly blending powerful functionality with a sleek and intuitive design, this dashboard provides a comprehensive overview of financial insights. Tailwind CSS ensures a responsive and visually appealing layout, while Framer Motion adds a touch of elegance through smooth animations. Elevate your financial management experience with real-time tracking, insightful data visualization, and user-friendly navigation. Empower your decisions, stay informed, and embrace the future of financial control. Explore the Capital Tracker Dashboard  where precision meets innovation. ",
-    image:
-      "https://i.pinimg.com/736x/13/11/cc/1311cc0bf2b351f38ba953afdf8829bd.jpg",
-    tags: ["React Js", "daisyUI", "Tailwind CSS", "Framer motion"],
-    category: "other",
-    github: "https://github.com/sushantsharmaofficial/Cash_dashboard",
-    webapp: "https://cash-dashboard.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Todo app",
-    date: "oct 2023 - oct 2023",
-    description:
-      "Elevate your productivity with my latest creation  a robust ToDo App built with ReactJS! Seamlessly add, update, and delete tasks with an intuitive user interface. Experience the power of React as you organize your day effortlessly. Embrace efficiency, prioritize tasks, and stay on top of your goals. Simplify your workflow with this feature-rich ToDo App. Let's conquer tasks together! ",
-    image:
-      "https://i.pinimg.com/736x/e0/6e/cf/e06ecfd72b4a28c40504730ff2f9011d.jpg",
-    tags: ["React Js", "Tailwind CSS"],
-    category: "other",
-    github: "https://github.com/sushantsharmaofficial/TODO-app-react",
-    webapp: "https://todo-app-react-pearl-theta.vercel.app/",
-  },
+ 
 ];
 
 export const TimeLineData = [

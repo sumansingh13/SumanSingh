@@ -34,52 +34,52 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "e commerce" ? (
+          {toggle === "data cleaning" ? (
             <ToggleButton
               active
-              value="e commerce"
-              onClick={() => setToggle("e commerce")}
+              value="data cleaning"
+              onClick={() => setToggle("data cleaning")}
             >
-              E-COMMERCE
+             Data Cleaning
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="e commerce"
-              onClick={() => setToggle("e commerce")}
+              value="data cleaning"
+              onClick={() => setToggle("data cleaning")}
             >
-              E-COMMERCE
+             Data Cleaning
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "portfolio" ? (
+          {toggle === "visualization" ? (
             <ToggleButton
               active
-              value="portfolio"
-              onClick={() => setToggle("portfolio")}
+              value="visualization"
+              onClick={() => setToggle("visualization")}
             >
-              PORTFOLIO
+              Visualization
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="portfolio"
-              onClick={() => setToggle("portfolio")}
+              value="visualization"
+              onClick={() => setToggle("visualization")}
             >
-              PORTFOLIO
+              Visualization
             </ToggleButton>
           )}
           <Divider />
 
-          {toggle === "other" ? (
+          {toggle === "exploration" ? (
             <ToggleButton
               active
-              value="other"
-              onClick={() => setToggle("other")}
+              value="exploration"
+              onClick={() => setToggle("exploration")}
             >
-              CHAT APP
+              Exploration
             </ToggleButton>
           ) : (
-            <ToggleButton value="other" onClick={() => setToggle("other")}>
-              OTHER
+            <ToggleButton value="exploration" onClick={() => setToggle("exploration")}>
+              Exploration
             </ToggleButton>
           )}
         </ToggleButtonGroup>
