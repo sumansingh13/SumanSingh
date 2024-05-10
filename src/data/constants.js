@@ -9,7 +9,7 @@ export const Bio = {
     "I am a dedicated Data Analyst and Data Scientist with a mission to unravel the stories hidden within data. I thrive on the excitement of turning raw numbers into actionable insights and believe in the transformative power of data-driven decision-making.",
   github: "https://github.com/sumansingh13",
   resume:
-    "https://drive.google.com/file/d/1HY-l4VtH8ccKq_Osw0D3BrNQyhngCzEX/view?usp=sharing",
+    "https://drive.google.com/file/d/1otmITXLueslvWKzQfh4zMcbBbVaWH22y/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/suman-singh-4320331a4/",
   twitter: "https://twitter.com/sumansingh_13",
   insta: "https://www.instagram.com/sumansingh_13?igsh=bzJmaHBnZWViNG9s",
